@@ -1,0 +1,112 @@
+:root{
+    --color_01: #68006bfb;
+    --color_02: #f349f3be;
+    --c_white: #0000009c;
+    --c_navbox: #4a0358c9;
+    --c_text: #ffffff;
+
+}
+
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--c_text);
+    font-family: "Carter One", system-ui;
+    
+}
+
+table{
+    background-color: var(--c_white);
+    margin: auto;
+    width: 1200px;
+    
+}
+#header_box tr{
+    
+    width: 100px;
+    height: 100px;
+}
+#nav_box{
+    background-color: var(--c_navbox);
+    border-top: 10px solid var(--color_01);
+    padding: 0px;
+    margin: 10px;
+    height: 60px;
+    font-family: "Carter One", system-ui;
+    
+}
+
+#nav_box ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#nav_box li{
+    float: left;
+    
+}
+
+#nav_box a{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--c_text);
+}
+.ativo{
+    background-color: var(--color_01);
+    color: var(--c_white);
+}
+
+#nav_box a:hover:not(.ativo) {
+    background-color: var(--color_02);
+    color: var(--c_text);
+    transition: 0.4s;
+}
+
+#image_box{
+    width: 400px;
+    height: 400px;
+}
+#image_box img{
+    width: 100%;
+}
+
+.article_box{
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;    
+}
+
+
+#footer_box{
+    border-top: 10px solid var(--color_01);
+    background-color: var(--c_gray);
+    text-align: center;
+    height: 50px;
+}
+#logo{
+    width: 200px;
+    height: 100px;
+    
+}
+
+#imghome1{
+    width: 1200px;
+    height: 300px;
+}
+#imghome2{
+    width: 300px;
+    height: 400px;
+}
+#header_box h2{
+    text-align: center;
+    font-family: "Carter One", system-ui;
+}
+#header_box img{
+    width: 200px;
+    float: inline-start;
+}
